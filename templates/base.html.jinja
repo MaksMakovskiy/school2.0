@@ -1,0 +1,15 @@
+<style>
+    .Info {
+        background-color: coral;
+    }
+</style>
+
+<body>
+    <a href="/add_user">new user</a>
+    <dev class="Info">
+        <h1>SomePreviu</h1>
+        {% for i in users.all_users %}
+        {{ i }}<br>
+        {% endfor %}
+    </dev>
+</body>
